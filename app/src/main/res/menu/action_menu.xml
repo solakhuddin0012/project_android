@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_notification"
+        android:icon="@drawable/baseline_notifications"
+        android:title="@string/menu_notification"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/baseline_account"
+        android:title="@string/menu_profile"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/baseline_settings"
+        android:title="Setting"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="logout"
+        app:showAsAction="never"
+
+
+</menu>
